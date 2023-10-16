@@ -11,6 +11,8 @@
     "clean": "gts clean",
     "compile": "tsc",
     "test": "jest",
+    "test_binary_search": "npm run compile && jest ./build/src/tests/binary_search.test.js",
+    "test_crystal_ball": "npm run compile && jest ./build/src/tests/crystal_ball.test.js",
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
