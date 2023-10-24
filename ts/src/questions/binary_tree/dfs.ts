@@ -5,11 +5,8 @@
  * and it will be decently balanced
  *
  */
-interface BNode {
-  val: number;
-  left?: BNode;
-  right?: BNode;
-}
+
+import {BNode} from '.';
 
 export function dfs(node: BNode, target: number): boolean {
   return false;
