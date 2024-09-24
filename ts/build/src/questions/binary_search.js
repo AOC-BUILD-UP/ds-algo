@@ -39,20 +39,6 @@ exports.binary_search = void 0;
 //   return null;
 // }
 function binary_search(data, target) {
-    let start = 0;
-    let end = data.length;
-    while (start < end) {
-        let mid = Math.floor((end - start) / 2 + start);
-        let mid_value = data[mid];
-        if (mid_value === target) {
-            return mid;
-        }
-        if (mid_value > target) {
-            end = mid;
-            continue;
-        }
-        start = mid + 1;
-    }
     return null;
 }
 exports.binary_search = binary_search;
